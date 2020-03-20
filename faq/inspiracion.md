@@ -3,7 +3,45 @@
 A continuación encuentras un barrido de preguntas relevantes que pueden ser interesantes para atacar en la hackaton. Tomar estas preguntas como guía sobre las necesidades de expertos en la materia. No olvidar la pregunta principal de la hackaton #MOVID19.
 
 
-#### Comentarios Secretario de Movilidad - Nicolás Estupiñán
+### Comentarios C40 Cities Finance Facility (CFF)
+
+#### ¿Qué problemas se pueden solucionar en bici y cómo?
+
+##### Miedo a usar la bici vs miedo usar transporte público por riesgo de contagio 
+
+##### Pensando en las labores de cuidado.
+
+Usar logística y experiencia de al colegio en bici: Potenciar metodología/experiencia del colegio en bici, pero en ruta de recoger gente y dejar gente con bicis propias. Rutas guiadas de gente con protección (vial y sanitaria) eso asegura que la gente se decida tomar la bici como estrategia de transporte individual y evite el transporte público. Según los datos cómo serían esas rutas, origen destino, dirigidas a personal médico, de cuidado, o de seguridad.
+
+### Viajes cortos
+
+Flota de bicicletas distrital dispuesta en sitios donde hay mayor congestión de estaciones /cubrir rutas alimentadoras (con protocolos sanitarios guantes o alcohol + tapabocas) 
+
+Con los datos de demanda de transporte que tiene la ciudad, ¿cómo se podría elegir los puntos, rutas y demanda esperada para ubicar las bicicletas públicas? 
+
+###### ¿Cómo garantizar que la gente tenga el mayor espacio posible dentro del transporte público? SITP y TRANSMILENIO. 
+
+###### Viajes largos (commuting)
+
+Optimizar la flota de transporte público y rutas, e incluir dentro de logística el proceso de limpieza. 
+
+¿Se deberían instalar puntos intermedios de limpieza y esterilización de los buses cuando cumplen recorrido? ¿Cómo se deberían elegir estos puntos? Destinar vagones en las estaciones para ubicar equipos de limpieza. Hacer rutas circulares cortas para que los buses se puedan limpiar más seguido.
+
+###### ¿Cómo las tecnologías de la información, apps de transporte, entregas y movilidad pueden apoyar las labores de cuidado y atención a pacientes?
+
+#### Apps de tráfico y movilidad y su uso para la atención al COVID 19.
+
+Uso de datos de Waze y Maps de aplicaciones de tráfico para construir rutas para optimizar cuidado y seguimiento a pacientes. 
+
+Cómo con información georreferenciada y los datos de demanda y dinámicas de tráfico y transporte en la ciudad, se puede apoyar a las líneas de atención de pacientes para guiarlos a los puntos de atención.
+
+#### Uso de plataformas de domicilios y entregas para el apoyo al sistema de salud. 
+
+Utilizar las plataformas de los servicios de domicilios y entrega, para identificar a los enfermos/población en riesgo, y poder garantizar que tengan suministros y atención.
+
+Cómo utilizar las plataformas de domicilios y entregas, o sus experiencias y tecnología para hacer seguimiento a los suministros en los centros de ciudad y garantizar que los cuerpos médicos de la ciudad cuenten con los recursos que necesitan todo el tiempo (una bodega virtual de suministros, donde todos sepan que hay en almacenamiento, dónde está y como se puede transportar entre locaciones).
+
+### Comentarios Secretario de Movilidad - Nicolás Estupiñán
 
 SDM ha hecho análisis preliminares para poder actuar ante Covid-19, con base en los procedimientos típicos. No obstante, ha sido difícil tener resultados útiles pues los supuestos típicos no aplican y los métodos clásicos de modelos no tienen supuestos claros en casos de pandemias o total aislamiento, ni de selección de poblaciones específicas según esos requerimientos.
 

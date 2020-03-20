@@ -127,7 +127,7 @@ Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imá
 
 [Transport Studies Unit, University of Oxford](https://www.tsu.ox.ac.uk) Juan Pablo Orjuela
 
-![C40 Cities Finance Facility](https://www.c40cff.org)
+[C40 Cities Finance Facility](https://www.c40cff.org)
 
 Erik Vergel, Arquitectura UniAndes.
 

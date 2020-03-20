@@ -14,5 +14,15 @@ Todos los resultados si son de código abierto tendrán licencia abierta de MIT.
 
 Todo el listado de recursos y datos están [aquí](datos.md)
 
+## ¿Por dónde puedo hacer preguntas sobre la hackaton?
+
+Lo mejor para hacer preguntas sobre la hackaton y que sean accesibles a todos los participantes o para generar discusiones es a través de los [issues de github en el repositorio de la hackaton](https://github.com/datasketch/MOVID19/issues)
+
+Para opiniones o comentarios más ágiles y de difusión se recomienda usar redes sociales usando el _hashtag_ #MOVID19
+
+En twitter nos pueden encontrar como [@datasketch](http://twitter.com) y [@carlosfpardo](http://twitter.com/carlosfpardo)
+
+
+
 
 

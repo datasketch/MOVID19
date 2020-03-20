@@ -1,4 +1,4 @@
-![](banner.png)
+![](static/banner.png)
 
 # MOVID19
 

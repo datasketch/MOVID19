@@ -95,7 +95,7 @@ Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imá
 
 ## Organizaciones que apoyan
 
-**[NUMO New Urban Mobility](http://numo.global)** and Alianza con **[Datasketch](https://datasketch.co)** 
+**[NUMO New Urban Mobility](http://numo.global)** en alianza con **[Datasketch](https://datasketch.co)** 
 
 
 [GIZ TUMI](http://transformative-mobility.org/)

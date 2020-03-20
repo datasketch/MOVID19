@@ -1,5 +1,9 @@
 # FAQ - Preguntas Frecuentes
 
+## ¿Hasta cuándo me puedo inscribir en la hackaton?
+
+En cualquier momento hasta la fecha y hora de envío de resultados el domingo.
+
 ## ¿Cómo debo enviar los resultados de mis análisis?
 
 1. Regístrate [aquí](https://forms.gle/6vZzhihhDFNrWrzc7). Puedes participar en grupos de máximo 3 personas.

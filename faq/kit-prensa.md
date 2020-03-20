@@ -41,26 +41,26 @@ Queremos premiar las mejores soluciones respecto a la movilidad de Bogotá en el
 
 A continuación hay un listado de imágenes para que usen en la difusión del evento.
 
-![](static/kit/1.jpg)
+![](/static/kit/1.jpg)
 
-![](static/kit/2.jpg)
+![](/static/kit/2.jpg)
 
-![](static/kit/Hackathon banner MOVID-19 Bogotá(2).jpg)
+![](/static/kit/3.jpg)
 
-![](static/kit/Hackathon banner MOVID-19 Bogotá(3).jpg)
+![](/static/kit/4.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá.jpg)
+![](/static/kit/5.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(1).jpg)
+![](/static/kit/6.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(2).jpg)
+![](/static/kit/7.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(3).jpg)
+![](/static/kit/8.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(4).jpg)
+![](/static/kit/9.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(5).jpg)
+![](/static/kit/10.jpg)
 
-![](static/kit/Vertical-Hackathon banner MOVID-19 Bogotá(6).jpg)
+![](/static/kit/11.jpg)
 
 

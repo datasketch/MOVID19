@@ -1,4 +1,7 @@
-# MOVID-19
+![](static/banner.png)
+
+# MOVID19
+
 Hackatón para buscar soluciones al reto del Covid-19 en transporte público.
 
 ## ¿Qué es?
@@ -27,7 +30,7 @@ A partir de análisis de datos que predigan un mejoramiento y permitan un monito
 
 ## Reglamento
 
-Acá puede acceder al documento completo (pdf)[/static/tyc-movid19.pdf] con los términos y condiciones. A continuación un resumen sobre los temas importantes.
+Acá puede acceder al documento completo [pdf](/static/tyc-movid19.pdf) con los términos y condiciones. A continuación un resumen sobre los temas importantes.
 
 ### Reconocimiento
 
@@ -91,6 +94,9 @@ Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYW
 ## Webinar y conversaciones
 
 Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas relevantes. Estaremos actualizando la información aquí y desde las redes de [@datasketch](http://twitter.com/datasketch)
+
+- Primer webinar. Lanzamiento e introducción. [Ver video - 30 mins](https://wri.zoom.us/rec/share/vdNqduvLzWNIXLOX8GLjCqQsN9j1eaa823VMrvQEyHeLDthKUTi5J2VgeJ39OBg)
+
 
 
 ## Preguntas frecuentes

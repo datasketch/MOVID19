@@ -3,6 +3,28 @@
 A continuación encuentras un barrido de preguntas relevantes que pueden ser interesantes para atacar en la hackaton. Tomar estas preguntas como guía sobre las necesidades de expertos en la materia. No olvidar la pregunta principal de la hackaton #MOVID19.
 
 
+### Propuestas comprobadas
+
+TUMI ha hecho un resumen bastante claro de las respuestas típicas al Covid-19 en el sector transporte que está disponible [acá](https://twitter.com/TUMInitiative/status/1240321177484169223?s=20). Es la guía principal para este ejercicio en términos de medidas sugeridas, además de las ideas adicionales que se presentan abajo y lo que se pueda encontrar en la literatura indicada en la lista de la siguiente subsección.
+
+Otra lista de propuestas es [la compilada por Transit App](https://transitapp.com/coronavirus-response) aquí.
+
+No obstante esas indicaciones, cada participante puede encontrar otras medidas que no se hayan sugerido ahí - la idea es dar espacio para innovar también. 
+
+### Propuestas por comprobar
+
+Algunas de las medidas que aún no se han contemplado en la literatura pero que podría valorarse son:
+
+-   Prestar servicios especiales específicamente para proveedores de servicios de salud (cómo hacerlo financieramente viable, cómo definir las rutas, etc)
+
+-   Prestar flotas de bicicletas eléctricas a empresas, hospitales, otros (una pregunta similar a la anterior)
+
+-   Abrir los datos: entregar de manera abierta los protocolos de limpieza de vehículos y demás procedimientos creados ante Covid-19, para que puedan ser utilizados de manera eficaz por otras ciudades
+
+-   Gestión de estacionamientos (en vía, fuera de vía): son espacios cuya demanda se reduce y podría aprovecharse de alguna manera dada la reducción de su utilización.
+
+### Preguntus Puntuales
+
 - ¿Cómo podemos aplicar soluciones y servicios digitales para hacer los sistemas de transporte público más resilientes en periodos de emergencias de salud?
 - ¿Qué precauciones pueden ser tomadas por los proveedores del servicio de transporte público?
 - ¿Qué políticas deben ser modificadas?

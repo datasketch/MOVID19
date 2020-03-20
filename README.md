@@ -17,6 +17,14 @@ Se espera que el análisis de los datos sobre COVID-19 y movilidad en Bogotá, p
 
 Te puedes inscribir en cualquier momento antes de la fecha límite de envío de soluciones descrita en el [cronograma](#cronograma)
 
+## Pregunta
+
+> Con análisis de datos y posibilidad de monitoreo de impacto, ¿qué intervenciones pueden implementarse para mejorar la movilidad de Bogotá, reducir la probabilidad de contagio de virus Covid-19 y focalizar el servicio a quienes irremediablemente deben usarlo?
+
+A partir de análisis de datos que predigan un mejoramiento y permitan un monitoreo de su impacto positivo ¿Cómo se puede mejorar la calidad de la movilidad en Bogotá, reduciendo la probabilidad de contagio de virus Covid-19 e incrementando la facilidad para quienes obligatoriamente tienen que usar el servicio, principalmente personas que trabajan en el sector de salud? El gran reto es que el transporte público tiene finanzas muy “justas”, lo que hace difícil tomar medidas grandes como incrementar la flota sustancialmente. Otro reto es que no se puede dejar de prestar este servicio que es esencial y del cual depende una proporción muy alta de la ciudadanía, en particular muchas personas que prestan servicios que no se pueden realizar virtualmente. Un último reto es que no es viable promover el uso de modos como el automóvil pues el acceso a este es mucho menor (y si se comparte el automóvil se genera el mismo problema de contagio), y la bicicleta sí es muy efectiva pero no para toda la población (pues algunas personas viven muy lejos o no pueden andar en bicicleta). Los viajes en carro son poco eficientes y hay poca disponibilidad en la ciudad.
+
+
+
 ## Reglamento
 
 Acá puede acceder al documento completo (pdf)[/static/tyc-movid19.pdf] con los términos y condiciones. A continuación un resumen sobre los temas importantes.

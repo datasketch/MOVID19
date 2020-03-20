@@ -33,19 +33,23 @@ Repartidos así entre los ganadores:
 
 ### Jurados
 
+
 Carlos F Pardo, NUMO
+
 Juan Pablo Marín Díaz, Datasketch
+
 Maria Fernanda Ramírez, Despacio
+
 Juan Pablo Orjuela, Oxford
 
 
 ### Criterios de evaluación
 
-- Criterios de evaluación de proceso (D):
+- Criterios de evaluación de proceso:
   - Apertura: Acceso abierto, colaboración.
   - Diseño: Gráfico de presentación de resultados.
   - Ciencia de datos: Metodología clara, flujos repiclables y reproducibles.
-- Criterios de resultado (CFP):
+- Criterios de resultado:
   - Pertinencia: En movilidad y salud pública.
   - Viabilidad: Que el gobierno pudiese ejecutar las medidas al día siguiente.
   - Monitoreo: Que la efectividad de lo propuesto se pueda evaluar fácilmente.

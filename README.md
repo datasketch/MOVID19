@@ -22,16 +22,22 @@ Acá puede acceder al documento completo (pdf)[] con los términos y condiciones
 
 ### Premio
 
-1000 USD repartidos así entre los ganadores:
+**1000 USD** 
 
-1. 750 USD al ganador
-1. 150 USD al segundo lugar
-1. 100 USD al tercer lugar
+Repartidos así entre los ganadores:
+
+1. $750 USD al ganador
+1. $150 USD al segundo lugar
+1. $100 USD al tercer lugar
 
 
 ### Jurados
 
-Los jurados se reservan el derecho de invitar a otros jurados expertos en temas de movilidad, salud pública o ciencia de datos.
+Carlos F Pardo, NUMO
+Juan Pablo Marín Díaz, Datasketch
+Maria Fernanda Ramírez, Despacio
+Juan Pablo Orjuela, Oxford
+
 
 ### Criterios de evaluación
 
@@ -45,11 +51,9 @@ Los jurados se reservan el derecho de invitar a otros jurados expertos en temas 
   - Monitoreo: Que la efectividad de lo propuesto se pueda evaluar fácilmente.
   - Sostenibilidad: Que siga principios de transporte sostenible estándar en la literatura.
 
-## Recursos
+## Recursos y datos
 
-### Datos
-
-En [esta página]() estaremos publicando todos los datos que puedan ser relevantes para dar respuesta a la pregunta de la hackatón.
+En [esta página](faq/datos.md) estaremos publicando todos los datos que puedan ser relevantes para dar respuesta a la pregunta de la hackatón.
 
 ## Cronograma
 
@@ -57,12 +61,34 @@ Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYW
 
 ![](./static/cronograma.jpg)
 
+## Webinar y conversaciones
+
+Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas relevantes. Estaremos actualizando la información aquí y desde las redes de [@datasketch](http://twitter.com/datasketch)
+
+
 ## Preguntas frecuentes
 
-## Organizaciones que apoyan
-
-## Siguientes pasos
+En [esta página](faq/README.md) puedes ver preguntas frecuentes sobre la Hackaton #MOVID19
 
 ## Kit de prensa
 
-## Webinar y conversaciones
+Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imágenes y textos para que invites a más gente a participar. 
+
+## Organizaciones que apoyan
+
+**NUMO New Urban Mobility** and Alianza con **Datasketch** 
+
+[GIZ TUMI](http://transformative-mobility.org/) (Armin Wagner, Daniel Moser)
+[City Parking](https://city-parking.com/)
+[Despacio](https://www.despacio.org/)
+[Alcaldía Mayor de Bogotá](http://ticbogota.gov.co/)
+[Bogotá Cómo Vamos](http://www.bogotacomovamos.org/)
+[Transport Studies Unit, University of Oxford](https://www.tsu.ox.ac.uk) Juan Pablo Orjuela
+
+Erik Vergel, Arquitectura UniAndes.
+Alberto Prieto
+Juan David García, Universidad Nacional.
+Diego Pajarito Grajales, Instituto de Arquitectura Avanzada de Catalunya.
+
+
+

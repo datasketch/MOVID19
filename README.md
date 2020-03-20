@@ -21,7 +21,7 @@ Te puedes inscribir en cualquier momento antes de la fecha límite de envío de 
 
 Acá puede acceder al documento completo (pdf)[] con los términos y condiciones. A continuación un resumen sobre los temas importantes.
 
-### Premio
+### Reconocimiento
 
 **1000 USD** 
 
@@ -95,7 +95,7 @@ Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imá
 
 ## Organizaciones que apoyan
 
-**[NUMO New Urban Mobility](http://numo.global)** en alianza con **[Datasketch](https://datasketch.co)** 
+**[NUMO - New Urban Mobility Alliance](http://numo.global)** en alianza con **[Datasketch](https://datasketch.co)** 
 
 
 [GIZ TUMI](http://transformative-mobility.org/)

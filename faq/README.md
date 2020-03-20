@@ -8,7 +8,7 @@
 
 ## ¿Qué pasa con el código y resultados de mis análisis?
 
-Todos los resultados si son de código abierto tendrán licencia abierta de MIT. Los contenidos generados tendrán licencia abierta de Creative Commons CC-BY Internacional.
+Todos los resultados serán de código abierto con licencia abierta de MIT. Los contenidos generados tendrán licencia abierta de Creative Commons CC-BY Internacional.
 
 ## ¿Dónde encuentro información y datos para la hackaton?
 

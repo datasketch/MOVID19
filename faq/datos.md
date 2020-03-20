@@ -67,7 +67,9 @@ Estas bases son todas públicas y conocidas. Las que se sacan para el día del h
 
 
 - CAF Observatorio de Movilidad Urbana disponibles en <https://www.caf.com/es/conocimiento/datos/observatorio-de-movilidad-urbana/>.
-
+	- [Mapa bases de datos disponibles](https://randommonkey.shinyapps.io/cafHome/)
+	- [Datos OMU Bogotá](http://ec2-13-58-156-101.us-east-2.compute.amazonaws.com:3838/myApps/caf-general-master/)
+	- [Descarga de bases de datos](https://randommonkey.shinyapps.io/cafDown/)
 
 
 

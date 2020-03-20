@@ -91,11 +91,12 @@ Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYW
 
 ![](./static/cronograma.jpg)
 
-## Webinar y conversaciones
+## Webinars y conversaciones
 
 Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas relevantes. Estaremos actualizando la información aquí y desde las redes de [@datasketch](http://twitter.com/datasketch)
 
 - Primer webinar. Lanzamiento e introducción. [Ver video - 30 mins](https://wri.zoom.us/rec/share/vdNqduvLzWNIXLOX8GLjCqQsN9j1eaa823VMrvQEyHeLDthKUTi5J2VgeJ39OBg)
+- Segundo webinar. Nicolás Estupiñán - Secretario de Movilidad. [Ver video - ](https://wri.zoom.us/rec/share/vdNqduvLzWNIXLOX8GLjCqQsN9j1eaa823VMrvQEyHeLDthKUTi5J2VgeJ39OBg). [Leer notas](/faq/notas-webinars.md)
 
 
 

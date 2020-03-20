@@ -22,6 +22,10 @@ Para opiniones o comentarios más ágiles y de difusión se recomienda usar rede
 
 En twitter nos pueden encontrar como [@datasketch](http://twitter.com) y [@carlosfpardo](http://twitter.com/carlosfpardo)
 
+## En el reglamento mencionan el código de conducta, ¿dónde lo puedo encontrar?
+
+[Aquí](/codigo-de-conducta.md)
+
 
 
 

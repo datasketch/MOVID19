@@ -114,6 +114,7 @@ Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imá
 **[NUMO - New Urban Mobility Alliance](http://numo.global)** en alianza con **[Datasketch](https://datasketch.co)** 
 
 
+
 [GIZ TUMI](http://transformative-mobility.org/)
 
 [City Parking](https://city-parking.com/)
@@ -134,5 +135,6 @@ Juan David García, Universidad Nacional.
 
 Diego Pajarito Grajales, Instituto de Arquitectura Avanzada de Catalunya.
 
+![C40 Cities Finance Facility](https://www.c40cff.org)
 
 

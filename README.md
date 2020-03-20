@@ -38,9 +38,9 @@ Acá puede acceder al documento completo [pdf](/static/tyc-movid19.pdf) con los 
 
 Repartidos así entre los ganadores:
 
-1. $750 USD al ganador
-1. $150 USD al segundo lugar
-1. $100 USD al tercer lugar
+1. $950 USD al ganador
+1. $250 USD al segundo lugar
+1. $150 USD al tercer lugar
 
 
 ### Jurados

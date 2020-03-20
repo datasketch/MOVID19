@@ -12,6 +12,7 @@ Se espera que el análisis de los datos sobre COVID-19 y movilidad en Bogotá, p
 
 1. Regístrate [aquí](https://forms.gle/6vZzhihhDFNrWrzc7). Puedes participar en grupos de máximo 3 personas.
 1. Clona el repositorio para quedar inscrito. [Ver instructivo](./faq/pull-request.md)
+1. Hackea tu solución teniendo en cuenta la **pregunta principal** y la información de [inspiración](faq/inspiracion.md)
 1. Envía tu solución a a la [pregunta]() haciendo un pull request incluyendo una carpeta con tu nombre de GitHub. Asegúrate de mantener la estructura descrita en el [instructivo.](./faq/estructura-de-archivos.md)
 
 Te puedes inscribir en cualquier momento antes de la fecha límite de envío de soluciones descrita en el [cronograma](#cronograma)

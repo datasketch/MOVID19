@@ -4,6 +4,10 @@
 
 En cualquier momento hasta la fecha y hora de envío de resultados el domingo.
 
+## ¿Dónde se puede ver el número de inscritos?
+
+En la parte superiod derecha de está página. El número de inscritos es el mismo número de forks.
+
 ## ¿Cómo debo enviar los resultados de mis análisis?
 
 1. Regístrate [aquí](https://forms.gle/6vZzhihhDFNrWrzc7). Puedes participar en grupos de máximo 3 personas.

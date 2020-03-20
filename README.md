@@ -59,6 +59,20 @@ En [esta página](faq/datos.md) estaremos publicando todos los datos que puedan 
 
 Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYWxfMmZlMnZtaHZmdGltdjdnaDhhZXVxMjJ0bm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
+
+**Inscripciones:** Desde el jueves 19 a las 6pm.
+
+**Publicación pregunta y webinar introductorio**: Viernes 20 de marzo 10am.
+
+**Fecha límite entrega de resultados:** Domingo 22 de marzo 6pm.
+
+**Selección de finalistas:** Domingo 22 de marzo 9pm.
+
+**Presentaciones de finalistas:** Lunes 23 de marzo 4pm.
+
+**Anuncio ganadores**: Lunes 23 de marzo 5pm.
+
+
 ![](./static/cronograma.jpg)
 
 ## Webinar y conversaciones
@@ -78,16 +92,25 @@ Si quieres ayudar a difundir consulta [esta página](faq/kit-prensa.md) con imá
 
 **NUMO New Urban Mobility** and Alianza con **Datasketch** 
 
+
 [GIZ TUMI](http://transformative-mobility.org/) (Armin Wagner, Daniel Moser)
+
 [City Parking](https://city-parking.com/)
+
 [Despacio](https://www.despacio.org/)
+
 [Alcaldía Mayor de Bogotá](http://ticbogota.gov.co/)
+
 [Bogotá Cómo Vamos](http://www.bogotacomovamos.org/)
+
 [Transport Studies Unit, University of Oxford](https://www.tsu.ox.ac.uk) Juan Pablo Orjuela
 
 Erik Vergel, Arquitectura UniAndes.
+
 Alberto Prieto
+
 Juan David García, Universidad Nacional.
+
 Diego Pajarito Grajales, Instituto de Arquitectura Avanzada de Catalunya.
 
 

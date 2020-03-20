@@ -96,7 +96,8 @@ Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYW
 Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas relevantes. Estaremos actualizando la información aquí y desde las redes de [@datasketch](http://twitter.com/datasketch)
 
 - Primer webinar. Lanzamiento e introducción. [Ver video - 31 mins](https://wri.zoom.us/rec/share/vdNqduvLzWNIXLOX8GLjCqQsN9j1eaa823VMrvQEyHeLDthKUTi5J2VgeJ39OBg)
-- Segundo webinar. Nicolás Estupiñán - Secretario de Movilidad. [Ver video - 58 mins](https://wri.zoom.us/rec/play/tZwkJuGuq2o3GoWXuASDAKd7W9W_Kqus0XVP_aUEnhuyUnkCY1DwMrVBNubPyK7Y8T0SamOnR-ZJ4XNe?startTime=1584731013000). [Leer notas](/faq/notas-webinars.md)
+- Segundo webinar. Carlos Pardo [Ver video - 58 mins](https://wri.zoom.us/rec/play/tZwkJuGuq2o3GoWXuASDAKd7W9W_Kqus0XVP_aUEnhuyUnkCY1DwMrVBNubPyK7Y8T0SamOnR-ZJ4XNe?startTime=1584731013000)
+- Tercer webinar. Nicolás Estupiñán - Secretario de Movilidad. [Ver video - 20 mins](https://wri.zoom.us/rec/play/upEpdu78_Ts3G9WVtgSDVv95W9Toeq2s1XMc8_IPyk3mUiNVMFvyZuMQMedKvy_ElJZKFeFrtVDcpOc-?continueMode=true). [Leer notas](/faq/notas-webinars.md)
 
 
 

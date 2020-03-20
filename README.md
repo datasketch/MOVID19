@@ -19,7 +19,7 @@ Te puedes inscribir en cualquier momento antes de la fecha límite de envío de 
 
 ## Reglamento
 
-Acá puede acceder al documento completo (pdf)[] con los términos y condiciones. A continuación un resumen sobre los temas importantes.
+Acá puede acceder al documento completo (pdf)[/static/tyc-movid19.pdf] con los términos y condiciones. A continuación un resumen sobre los temas importantes.
 
 ### Reconocimiento
 

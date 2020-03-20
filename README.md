@@ -27,7 +27,7 @@ A partir de análisis de datos que predigan un mejoramiento y permitan un monito
 
 ## Reglamento
 
-Acá puede acceder al documento completo (pdf)[/static/tyc-movid19.pdf] con los términos y condiciones. A continuación un resumen sobre los temas importantes.
+Acá puede acceder al documento completo [pdf](/static/tyc-movid19.pdf) con los términos y condiciones. A continuación un resumen sobre los temas importantes.
 
 ### Reconocimiento
 

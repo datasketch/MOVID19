@@ -32,7 +32,12 @@ En twitter nos pueden encontrar como [@datasketch](http://twitter.com) y [@carlo
 
 ## En el reglamento mencionan el código de conducta, ¿dónde lo puedo encontrar?
 
-[Aquí](/codigo-de-conducta.md)
+[Aquí](/codigo-de-conducta.md)f
+
+## ¿Dónde puedo encontrar información sobre otras hackatones?
+
+Ver listado que vamos actualizando [aquí](/faq/hackatones.md)
+
 
 
 

@@ -1,0 +1,306 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MOVID-19 Hackaton
+X-WR-TIMEZONE:America/Bogota
+X-WR-CALDESC:Este calendario es para actividades del Hackaton MOVID-19 de t
+ ransporte para Bogotá
+BEGIN:VEVENT
+DTSTART:20200323T230000Z
+DTEND:20200323T233000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:1aom7dsd3sf30e2f690hg6lhhr@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Jp mar
+ in diaz;X-NUM-GUESTS=0:mailto:jpmarindiaz@randommonkey.io
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ fe@despacio.org;X-NUM-GUESTS=0:mailto:mafe@despacio.org
+CREATED:20200319T145651Z
+DESCRIPTION:Detalles por definir\, hora tentativa según como avance todo. 
+LAST-MODIFIED:20200319T222708Z
+LOCATION:https://wri.zoom.us/my/cfpardo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Premiación hackaton (hora estimada)
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200323T020000Z
+DTEND:20200323T023000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:7ukq9j7s9ult75ciimbhhh8vhr@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Jp mar
+ in diaz;X-NUM-GUESTS=0:mailto:jpmarindiaz@randommonkey.io
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+CREATED:20200319T145423Z
+DESCRIPTION:Detalles luego
+LAST-MODIFIED:20200319T222713Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hackaton BOG: comunicar finalistas.
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200320T210000Z
+DTEND:20200320T220000Z
+DTSTAMP:20200321T164201Z
+UID:3pi395ki5gvnstg8h8ubm1k08t@google.com
+CREATED:20200319T230155Z
+DESCRIPTION:(a cargo de datasketch)
+LAST-MODIFIED:20200319T230207Z
+LOCATION:https://wri.zoom.us/my/cfpardo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19 Meetup R
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200323T210000Z
+DTEND:20200323T230000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:6u20627hpvskec2ts6a35vinuu@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Jp mar
+ in diaz;X-NUM-GUESTS=0:mailto:jpmarindiaz@randommonkey.io
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ fe@despacio.org;X-NUM-GUESTS=0:mailto:mafe@despacio.org
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=jp
+ orjuelam@gmail.com;X-NUM-GUESTS=0:mailto:jporjuelam@gmail.com
+CREATED:20200319T145615Z
+DESCRIPTION:Detalles luego\, pero este es el "slot" para revisar todo.
+LAST-MODIFIED:20200320T114433Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hackaton BOG: resultados finales\, presentaciones\, jurados calific
+ an
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200322T230000Z
+DTEND:20200322T233000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:2gkdcvia0hrhrhfo8p918lakud@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Jp mar
+ in diaz;X-NUM-GUESTS=0:mailto:jpmarindiaz@randommonkey.io
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=ma
+ fe@despacio.org;X-NUM-GUESTS=0:mailto:mafe@despacio.org
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=jp
+ orjuelam@gmail.com;X-NUM-GUESTS=0:mailto:jporjuelam@gmail.com
+CREATED:20200319T145510Z
+DESCRIPTION:Detalles luego. Hora tentativa\, mientras vamos avanzando lo de
+ finimos mejor.
+LAST-MODIFIED:20200320T114445Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hackaton BOG: revisar con jurados el avance para definir finalistas
+ ?
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200321T150000Z
+DTEND:20200321T160000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:4ojmgkqh2536hk2k3cjtqj0mv5@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=c.
+ vergel@uniandes.edu.co;X-NUM-GUESTS=0:mailto:c.vergel@uniandes.edu.co
+CREATED:20200320T135040Z
+DESCRIPTION:Presentará lecciones y aspectos metodológicos de sus experienci
+ as en la Mapatón Bogotá y la Mapatón Cartagena.
+LAST-MODIFIED:20200320T135326Z
+LOCATION:https://wri.zoom.us/my/cfpardo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID19: Erik Vergel: lecciones de mapatón
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H5M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200320T150000Z
+DTEND:20200320T153000Z
+DTSTAMP:20200321T164201Z
+UID:69i8k037ramjakoidv3mi1ugrk@google.com
+CREATED:20200319T222446Z
+DESCRIPTION:<p>https://wri.zoom.us/my/cfpardo</p>
+LAST-MODIFIED:20200320T150407Z
+LOCATION:https://wri.zoom.us/my/cfpardo\, 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19: publicación de pregunta y webinar intro
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200320T173000Z
+DTEND:20200320T180000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:65s9kp8hj7an5r1niirs4djdar@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=nestup
+ inan@movilidadbogota.gov.co;X-NUM-GUESTS=0:mailto:nestupinan@movilidadbogot
+ a.gov.co
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=dunima
+ n@movilidadbogota.gov.co;X-NUM-GUESTS=0:mailto:duniman@movilidadbogota.gov.
+ co
+CREATED:20200320T113227Z
+DESCRIPTION:Planteará cómo está viendo SDM el problema y qué tipo de soluci
+ ones querrían ver.
+LAST-MODIFIED:20200320T162211Z
+LOCATION:https://wri.zoom.us/my/cfpardo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19: Nicolás Estupiñán (Secretario de Movilidad de Bogotá)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200320T190000Z
+DTEND:20200320T200000Z
+DTSTAMP:20200321T164201Z
+UID:1jrhu1kk58dn53u64glh5ev1vh@google.com
+CREATED:20200320T112638Z
+DESCRIPTION:Explicando contenido más en detalle\, revisar preguntas\, respu
+ estas típicas ante COVID en transporte público\, etc.
+LAST-MODIFIED:20200320T181752Z
+LOCATION:https://wri.zoom.us/my/cfpardo
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19: webinar Carlos Pardo (NUMO)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200321T160000Z
+DTEND:20200321T164500Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:45qjg0v5f6lfpi6a8ldlbfbn6c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=marina
+ @despacio.org;X-NUM-GUESTS=0:mailto:marina@despacio.org
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=se
+ gundo.lopez.5@wri.org;X-NUM-GUESTS=0:mailto:segundo.lopez.5@wri.org
+CREATED:20200319T222610Z
+DESCRIPTION:Link es https://wri.zoom.us/my/cfpardo . Webinar por Marina Mos
+ coso de Despacio Y Segundo López de WRI en https://wri.zoom.us/my/cfpardo 
+LAST-MODIFIED:20200321T160855Z
+LOCATION:(ver link en descripción)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19: webinar movilidad del cuidado
+TRANSP:OPAQUE
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:This is an event reminder
+TRIGGER:-P0DT0H10M0S
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200321T170000Z
+DTEND:20200321T180000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:2c18g4r493t9j7pbe3bqe0ifhe@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=jp
+ orjuelam@gmail.com;X-NUM-GUESTS=0:mailto:jporjuelam@gmail.com
+CREATED:20200320T171757Z
+DESCRIPTION:Link es https://wri.zoom.us/my/cfpardo&nbsp\;<br><b>Calidad del
+  aire\, actividad física\, y salud</b>
+LAST-MODIFIED:20200321T160916Z
+LOCATION:(ver link en descripción)
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID19: webinar Juan Pablo Orjuela
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200321T190000Z
+DTEND:20200321T200000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:2p8j38n0di2bmpfgbs8e332edo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=DECLINED;CN=carlos
+ @numo.global;X-NUM-GUESTS=0:mailto:carlos@numo.global
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=eb
+ ayon@city-parking.com;X-NUM-GUESTS=0:mailto:ebayon@city-parking.com
+CREATED:20200320T112019Z
+DESCRIPTION:Link es https://wri.zoom.us/my/cfpardo . 
+LAST-MODIFIED:20200321T160930Z
+LOCATION:Ver link en descripción
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID-19: webinar estacionamientos (Eduardo Bayón)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20200321T230000Z
+DTEND:20200321T233000Z
+DTSTAMP:20200321T164201Z
+ORGANIZER;CN=MOVID-19 Hackaton:mailto:numo.global_2fe2vmhvftimv7gh8aeuq22tn
+ o@group.calendar.google.com
+UID:5ue7clu0copstasn3k8pp4hg9f@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;CN=di
+ egopajarito@gmail.com;X-NUM-GUESTS=0:mailto:diegopajarito@gmail.com
+CREATED:20200320T210701Z
+DESCRIPTION:<br>Link es https://wri.zoom.us/my/cfpardo&nbsp\;<ul><li><p>Cóm
+ o manejar datos geoespaciales y api para hacer web maps (mas alla de google
+  maps). También sobre el uso de openstreetmap como fuente de datos.</p></li
+ ></ul>
+LAST-MODIFIED:20200321T160947Z
+LOCATION:ver link en descripción
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:MOVID19: Diego Pajarito - datos geoespaciales via AP
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

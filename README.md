@@ -73,8 +73,9 @@ En [esta página](faq/datos.md) estaremos publicando todos los datos que puedan 
 
 ## Cronograma
 
-Agrega este [calendario](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYWxfMmZlMnZtaHZmdGltdjdnaDhhZXVxMjJ0bm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+Agrega este [calendario de Google](https://calendar.google.com/calendar?cid=bnVtby5nbG9iYWxfMmZlMnZtaHZmdGltdjdnaDhhZXVxMjJ0bm9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
+Descarga Calendario [ics](/static/invite.ics)
 
 **Inscripciones:** Desde el jueves 19 a las 6pm.
 

@@ -120,6 +120,10 @@ Algunas de las medidas que aún no se han contemplado en la literatura pero que 
 -   MaaS Global: iniciativas de servicios compartidos ([español](https://www.maaslatam.org/post/empresas-de-movilidad-por-app-activan-medidas-contra-covid-19-y-destacan-beneficios-de-la-industria))
 -   Algunas ciudades de Estados Unidos dan [transporte público de tarifa cero](https://www.citylab.com/perspective/2020/03/coronavirus-public-transit-fares-free-rides-bus-covid-19/608350/)
 -   [Propuestas de Carlos F Pardo](https://medium.com/@carlosfpardo/yet-another-crisis-opportunity-to-redefine-mobility-how-could-we-achieve-it-this-time-d13cbd545369) (en inglés)
+-   Algunas medidas que ha tomado BART en San Francisco ([hilo de Twitter](https://twitter.com/SFBART/status/1240753981158125568?s=20))
+-   Médicos urgen a permitir caminar y montar en bicicleta durante COVID-19 ([doc google, inglés](https://docs.google.com/document/d/e/2PACX-1vR5AdOmF2effrg-lpBXtvh0stbxM0W6xTDwV2J-xIgHB8rPfZl5bLVR5eL7VV2m_W9xx5PgH26TB0vq/pub)).
+-   Modelo matemático de salud y transporte: <https://github.com/ITHIM/ITHIM-R> (incluye datos para Bogotá) y <https://www.overleaf.com/project/5bc08a8caba5c52e6060b614>  es la documentación para entender mejor el modelo de ITHIM
+
 
 ### Sobre transporte público en general
 

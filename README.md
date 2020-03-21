@@ -101,7 +101,7 @@ Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas rele
 - Tercer webinar. Nicolás Estupiñán - Secretario de Movilidad. [Ver video - 20 mins](https://wri.zoom.us/rec/play/upEpdu78_Ts3G9WVtgSDVv95W9Toeq2s1XMc8_IPyk3mUiNVMFvyZuMQMedKvy_ElJZKFeFrtVDcpOc-?continueMode=true). [Leer notas](/faq/notas-webinars.md)
 - Cuarto webinar. Juan Pablo Marín Díaz. Acceso a datos públicos con R. [Descargar video 1:00 hora 200 MB](https://data.datasketch.co/numo/movid19/webinars/meetup-r-movid19.mp4)
 - Quinto webinar. Erik Vergel. Mapatones Bogotá. [Ver video 53 mins](https://wri.zoom.us/rec/play/6Zwqdriqpjg3H4WX4wSDAvMrW43oKPms1HVKqfoKn0m0BnFXNgH3NbsUZI4SHXgRYJeMfLZ8eLVrPi0?continueMode=true)
-
+- Sexto webinar. Marina Troncoso y José Segundo López. [Ver video 57 mins](https://wri.zoom.us/rec/share/98pMbI3OrVxIGo2W9BzWd_Y7QKXrT6a81nAc-KZezp9FaQ4vJnIqo3CERKoxfic)
 
 ## Preguntas frecuentes
 

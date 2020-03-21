@@ -21,6 +21,21 @@ La solución ganadora recibirá 750 dólares, la segunda 150 y la tercera 100 d�
 
 ## Textos para redes sociales
 
+En twitter puedes taggear en tus posts a estas cuentas:
+
+[@c40cities](http://twitter.com/c40cities)
+[@SectorMovilidad](http://twitter.com/SectorMovilidad)
+[@TUMInitiative](http://twitter.com/TUMInitiative)
+[@carlosfpardo](http://twitter.com/carlosfpardo)
+[@jpmarindiaz](http://twitter.com/jpmarindiaz)
+[@NUMOalliance](http://twitter.com/NUMOalliance)
+[@despacio](http://twitter.com/despacio)
+[@jporjuelam](http://twitter.com/jporjuelam)
+[@nico_estuninan](http://twitter.com/nico_estuninan)
+[@datasketch](http://twitter.com/datasketch)
+
+### Sugerencias de textos para compartir
+
 Desde hoy y hasta el próximo 22 de marzo podrás participar en la hackatón #MOVID19 que busca dar soluciones al COVID-19 en el transporte público en Bogotá.
 ¿Quieres participar? Inscríbete aquí https://dskt.ch/movid19
 

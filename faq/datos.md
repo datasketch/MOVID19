@@ -10,11 +10,16 @@ Estas bases son todas públicas y conocidas. Las que se sacan para el día del h
 - Compilación de Datos y Gráficos sobre [Coronavirus de Datsketch](https://datasketch.github.io/coronavirus/)
 - Reporte diario Colombia https://coronaviruscolombia.gov.co/Covid19/index.html 
 - Datos Mundiales organizados por John's Hopkins University https://github.com/CSSEGISandData/COVID-19
-
+- Lista de links con medidas para la contención del coronavirus (Mintransporte):
+https://www.mintransporte.gov.co/publicaciones/8238/medidas-para-la-contencion-del-coronavirus/ 
+- Worldometer daily increases http://bit.ly/2UthvuM
+- Otro _dashboard_ http://bit.ly/39TwQv7
+- Recursos clínicos http://bit.ly/2J24280
 
 ### Fuente Generales
 
 - Secretaría de movilidad [Portal SIMUR](https://www.simur.gov.co/portal-simur/)
+- Datos Abiertos Transmilenio [Portal](https://datosabiertos-transmilenio.hub.arcgis.com/)
 - Datos Abiertos Bogotá https://datosabiertos.bogota.gov.co
 - Datos Abiertos Colombia http://datos.gov.co 
 - Infraestructura de Datos Espaciales del Distrito Capital - <http://ideca.gov.co/>
@@ -72,7 +77,7 @@ Estas bases son todas públicas y conocidas. Las que se sacan para el día del h
 	- [Descarga de bases de datos](https://randommonkey.shinyapps.io/cafDown/)
 - Recaudo Bogotá. Validaciones del sistema, troncal, dual y zonal para el periodo del 01 al 18 de marzo, con 56.2 millones de transacciones. [Descargar .rar](http://data.datasketch.co/numo/movid19/data-validaciones-desnormalizadas.rar)
 - Datos Abiertos Transmilenio [Portal](https://datosabiertos-transmilenio.hub.arcgis.com/)
-
+- Datos de Mujeres y transporte en Bogotá. [Archivo excel])https://www.despacio.org/portfolio/las-mujeres-y-el-transporte-en-bogota-las-cuentas/)
 
 
 

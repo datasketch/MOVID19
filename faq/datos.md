@@ -15,6 +15,7 @@ https://www.mintransporte.gov.co/publicaciones/8238/medidas-para-la-contencion-d
 - Worldometer daily increases http://bit.ly/2UthvuM
 - Otro _dashboard_ http://bit.ly/39TwQv7
 - Recursos clínicos http://bit.ly/2J24280
+- Página web (en inglés) con bases de datos sobre COVID y modelos (para Estados Unidos) https://covidactnow.org 
 
 ### Fuente Generales
 

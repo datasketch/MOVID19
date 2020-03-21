@@ -97,6 +97,11 @@ Algunas de las medidas que aún no se han contemplado en la literatura pero que 
 - ¿Cómo optimizar el papel de la micromovilidad de carga (bicicletas de carga) dentro de los procesos de provisión urbana, guardando las líneas de contacto, y posible contagio?
 - ¿De qué manera se puede estimar la redundancia de una ruta de transporte público, en situaciones especiales, de manera en casos de emergencia se puedan retirar esas rutas? ¿Cómo se determina la frecuencia de las rutas remanentes?
 
+#### Citiparking
+
+- Imaginemos el parqueadero del futuro usando el coronavirus como oportunidad. ¿Debe estar más asociado al subsuelo? ¿Que servicios urbanos podría proveer ahora (durante esta emergencia) y post-virus? ¿Que usos se pueden desarrollar en los sótanos del futuro? ¿Cómo aportará al espacio público de la ciudad? ¿Cómo se integraría al transporte público y a modos sostenible y compartidos de transporte durante (y después) de la pandemia?
+- Imaginemos la red de parqueaderos de la ciudad y el origen destino de los usuarios de transporte público. ¿Cómo se podría imaginar y estructurar un servicio de transporte privado colectivo que no “invada” pero que preste un buen servicio para las funciones de viaje indispensables en este tiempo?
+
 
 #### Otros
 

@@ -81,14 +81,29 @@ Algunas de las medidas que aún no se han contemplado en la literatura pero que 
 
 -   Gestión de estacionamientos (en vía, fuera de vía): son espacios cuya demanda se reduce y podría aprovecharse de alguna manera dada la reducción de su utilización.
 
-### Preguntus Puntuales
+### Preguntas Puntuales
+
+#### TUMI
 
 - ¿Cómo podemos aplicar soluciones y servicios digitales para hacer los sistemas de transporte público más resilientes en periodos de emergencias de salud?
 - ¿Qué precauciones pueden ser tomadas por los proveedores del servicio de transporte público?
 - ¿Qué políticas deben ser modificadas?
 - ¿Cuáles servicios se pueden digitalizar para minimizar interacción humana?
 - ¿Cómo se puede administrar el uso de un sistema de transporte público para evitar las aglomeraciones, utilizando herramientas de administración en línea para gestionar el acceso a estos servicios?
+
+#### Despacio
+
 - ¿Cómo mantener la logística urbana y la provisión de alimentos en la última milla en la ciudad?
+- ¿Cómo optimizar el papel de la micromovilidad de carga (bicicletas de carga) dentro de los procesos de provisión urbana, guardando las líneas de contacto, y posible contagio?
+- ¿De qué manera se puede estimar la redundancia de una ruta de transporte público, en situaciones especiales, de manera en casos de emergencia se puedan retirar esas rutas? ¿Cómo se determina la frecuencia de las rutas remanentes?
+
+
+#### Otros
+
+- ¿Cómo reasignar la flota del SITP y estructurar las rutas (que va a tener una gran cantidad de vehículos detenidos) en una especie de “shuttle bus” que recoja personal de primera línea de servicio? Entendemos como personas de primera línea de servicio: personal hospitalario, bomberos, personas que trabajan en supermercados y farmacias, recolección de basura, por ejemplo. Es decir, lo verdaderamente básico, que no puede dejar de funcionar en la ciudad, y requiere que ellos estén en un puesto de trabajo.
+- Robin Chase: “Sería bueno si alguien pudiera tomar un mapa de calles y observar todas las áreas donde hay dos carriles en una dirección y revisar si pudieran convertirse en uno para automóviles y uno para bicicletas. Creo que las ciudades van a querer tener una forma rápida de descubrir cómo abrir más espacio para que las personas y las bicicletas puedan distanciarse socialmente de una posible recreación. La gente no querrá estar encerrada por tantos meses”
+
+
 
 
 ## Documentos e información de contexto

@@ -153,6 +153,6 @@ Algunas de las medidas que aún no se han contemplado en la literatura pero que 
 -   [Otro hackaton de MinTIC](https://innpulsacolombia.com/es/entrada/gobierno-nacional-lidera-la-estructuracion-y-lanzamiento-de-retos-de-innovacion-publica)
 -   <http://covidsim.eu/>
 -   Johns Hopkins Coronavirus Resource Center <https://coronavirus.jhu.edu/map.html>
-
+- 	First assessment of mobility changes in Italy following lockdown https://covid19mm.github.io/in-progress/2020/03/13/first-report-assessment.html
 
 

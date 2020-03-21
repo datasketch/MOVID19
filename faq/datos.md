@@ -70,6 +70,7 @@ Estas bases son todas públicas y conocidas. Las que se sacan para el día del h
 	- [Mapa bases de datos disponibles](https://randommonkey.shinyapps.io/cafHome/)
 	- [Datos OMU Bogotá](http://ec2-13-58-156-101.us-east-2.compute.amazonaws.com:3838/myApps/caf-general-master/)
 	- [Descarga de bases de datos](https://randommonkey.shinyapps.io/cafDown/)
+- Recaudo Bogotá. Validaciones del sistema, troncal, dual y zonal para el periodo del 01 al 18 de marzo, con 56.2 millones de transacciones. [Descargar .rar](http://data.datasketch.co/numo/movid19/data-validaciones-desnormalizadas.rar)
 
 
 

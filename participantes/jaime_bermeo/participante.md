@@ -1,8 +1,8 @@
 ## Nombre
 
-Jaime Bermeo Ramírez (https://github.com/Silverdoses)
-Alejandro Barrera 
-Jonatan Huergo Aguilar (https://github.com/Shvana)
+- Jaime Bermeo Ramírez (https://github.com/Silverdoses)
+- Alejandro Barrera 
+- Jonatan Huergo Aguilar (https://github.com/Shvana)
 
 ## Descripción Proyecto
 

@@ -1,9 +1,7 @@
-## Análisis
+## Scripts
 
-Acá describo los análisis y cómo se hacen.
+Los siguientes scripts fueron usados para generar los histogramas, diagramas de barra y predicciones correspondientes para el posterior análisis de la problemática a tratar.
 
-Incluyo aquí mismo el acceso a los scripts de procesamiento que pueden estar en esta misma carpeta.
-Se recomienda utilizar Notebooks reproducibles de análisis tipo `Rmarkdown` para el lenguaje `R` o `Jupyter Notebooks` para python. También se pueden hacer análisis usando excel, importante cargar los archivos.
-
+Se incluye el archivo **requirements.txt** con las librerías necesarias para poder ejecutar los scripts.
 
 

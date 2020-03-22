@@ -4,6 +4,15 @@
 
 Hackatón para buscar soluciones al reto del Covid-19 en transporte público.
 
+```
+        #### ANUNCIO ####
+
+        Habiendo recibido diferentes mensajes indicando que subir los datos se está demorando por problemas de su red, extendemos el plazo de entrega por una hora. El merge se hará a las 17:30pm. Solo entrarán a participar las entregas que queden en el merge de los pull requests.
+
+        La puntualidad se tendrá en cuenta en cuenta en la valoración final.
+
+```
+
 ## ¿Qué es?
 
 Frente a la pandemia global de COVID-19 y el gran reto que ha supuesto prestar un buen servicio de transporte público sin incrementar el riesgo de contagio - y la coyuntura de tener toda una ciudad en cuarentena durante cuatro días, NUMO en alianza con Datasketch, Despacio y otras organizaciones quieren premiar las mejores soluciones que se presenten a través de un hackaton que se lanzará el jueves 19 de Marzo en la noche y se premiará el lunes 23 de marzo en la tarde.

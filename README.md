@@ -104,6 +104,7 @@ Durante la Hackaton estaremos teniendo conversaciones virtuales sobre temas rele
 - Sexto webinar. Marina Moscoso y José Segundo López. [Ver video 57 mins](https://wri.zoom.us/rec/share/98pMbI3OrVxIGo2W9BzWd_Y7QKXrT6a81nAc-KZezp9FaQ4vJnIqo3CERKoxfic)
 - Séptimo webinar. Juan Pablo Orjuela. Salud Pública. [Ver video 1:02 horas](https://wri.zoom.us/rec/share/-eg2fqHp23lLfqvoyEyAQrEmQNTYX6a8hiFN86UKnRzDx01nLvmaRniaKmT8WbII)
 - Octavo webinar. Eduardo Bayón. Estacionamientos. [Ver video 28 mins](https://wri.zoom.us/rec/share/5fBrHrX16UFLGKPx7UrTC6QZN9ToX6a8gCYerqdZyUx66koQbUaEL8Pu0Bh_Ydc8)
+- Noveno webinar. Carlos Pardo. Ideas conceptuales para Movid [Ver video - ](https://wri.zoom.us/rec/share/-vdvHa_Sp0NITavd9XvtBLIjH5XnX6a81SMZ-vQNz0zJZgXuDWtFIJfXgvjePMsR)
 
 ## Preguntas frecuentes
 

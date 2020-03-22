@@ -17,6 +17,8 @@ Tampoco dejamos de lado el porcentaje de trabajadores que por distancia no puede
 
 ## Resultados
 
+[presentacion](https://docs.google.com/presentation/d/1gr18yqET_lNmNSaD21YVRQlNYzfcM1xZo-BEku6cAuA/edit?usp=sharing)
+
 Nuestro trabajo tiene dos resultados principales. El primero es un esquema para la organización del transporte del personal basado en la distancia a la que viven de la ips, dad por la siguiente segmentación:
 - Distancia a menos de 1km: A pie (30% de los trabajadores)
 - Distancia entre 1km y 7km: Bicicleta (40% de los trabajadores)

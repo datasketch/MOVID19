@@ -7,9 +7,15 @@ Hackatón para buscar soluciones al reto del Covid-19 en transporte público.
 ```
         #### ANUNCIO ####
 
-        Habiendo recibido diferentes mensajes indicando que subir los datos se está demorando por problemas de su red, extendemos el plazo de entrega por una hora. El merge de todas las propuestas se hará a las 19:30pm. Solo entrarán a participar las entregas que queden en el merge a las 19:30pm.
+        Habiendo recibido diferentes mensajes indicando que subir
+        los datos se está demorando por problemas de su red,
+        extendemos el plazo de entrega por una hora. El merge de 
+        todas las propuestas se hará a las 19:30pm. Solo entrarán a
+        participar las entregas que queden en el merge a las
+        19:30pm.
 
-        La puntualidad se tendrá en cuenta en cuenta en la valoración final.
+        La puntualidad se tendrá en cuenta en cuenta en la 
+        valoración final.
 
 ```
 

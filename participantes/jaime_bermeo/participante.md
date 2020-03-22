@@ -1,16 +1,20 @@
-## Nombre
+## Participantes
 
 - Jaime Bermeo Ramírez (https://github.com/Silverdoses)
-- Alejandro Barrera 
+- Alejandro Barrera (https://github.com/Nofgar)
 - Jonatan Huergo Aguilar (https://github.com/Shvana)
 
-## Descripción Proyecto
+## Descripción del Proyecto
 
-Tomé los datos de infectados y de transmilenio para identificar una solución bien informada basada en evidencia.
+Team Salus es una iniciativa que pretende mitigar la alta probabilidad de contagio del COVID-19 en el transporte público de la ciudad de Bogotá. Para éste reto en específico, el estudio se delimitó al Transmilenio y SITP debido a la disponibilidad de información acerca de esos medios de transporte.
 
 ## Resultados
 
-[x] Confirmo que la presentación de resultados sigue la plantilla presentada y está en formato PDF.
+
+## Confirmación de envío de resultados
+
+- [x] Confirmo que conozco los criterios de evaluación y términos
+- [x] Confirmo que la presentación de resultados sigue la plantilla disponible [aquí](https://docs.google.com/presentation/d/1dCFx4epg2Ny-g-Ubq9esXCEXE6pEQwWsn1T7OImvzdI/edit?usp=sharing) y está en formato PDF.
 
 ## Pasos metodología
 
@@ -19,8 +23,6 @@ Tomé los datos de infectados y de transmilenio para identificar una solución b
 - Modelos usando algoritmo1 y estadísticas2
 - Visualización usando librería1 y herramienta3
 - Presentación resultados en páginaweb1 y en diapositivasX
-
-
 
 ## Otros links relevantes
 

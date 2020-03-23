@@ -20,7 +20,11 @@ Por otro lado, la aplicación podría ser usada por las autoridades y los labora
 
 Decidimos usar Whatsapp como la interface, ya que la mayoría de las personas tienen ya acceso y lo saben usar. A través del chat las personas se pueden registrar, actualizar sus datos, informar en que bus van, declarar si han dado positivo al virus, y pedir un listado de todos sus viajes.
 
+# Uso del Software
+
 Para usar la aplicación hay que mandar un whatsapp al +1 415 523 8886 con el código "join whom-wore". Una vez hagan esto pueden empezar a usarla.
+
+En el momento solo tenemos codificados 6 buses. Solo pueden enviar los siguientes numeros: 2000, 2100, 2200, 2300, 2400, 2400.
 
 La aplicación es complementaria a otras medidas que consideramos esenciales, en la presentación podrán encontrar más información.
 

@@ -10,7 +10,7 @@ En este proyecto nos enfocamos en estimar que seria necesario para permitir la m
 Después de varios análisis con datos de red de salud, movilidad y estimados varios. Llegamos a entender lo siguiente:
 - Cuales IPS son critica en Bogota, es decir, en cuales nos debemos enfocar
 - Estimamos cuantas personas trabajan en cada IPS
-- Encontramos como estimar de que sectores de la ciudad vienen estos trabajadores
+- Encontramos como estimar de que sectores de la ciudad vienen estos trabajadores y en que volumen.
 - Finalmente, por cada IPS critica, estimamos el numero de bicicletas necesarias por IPS y damos una ide de como priorizar estas.
 
 Tampoco dejamos de lado el porcentaje de trabajadores que por distancia no pueden usar el transporte y conversamos algunas ideas de como optimizar el transporte publico.

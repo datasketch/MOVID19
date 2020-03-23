@@ -5,12 +5,33 @@
 Hackatón para buscar soluciones al reto del Covid-19 en transporte público.
 
 ```
-        #### FINALISTAS ####
-
-        ACTUALIZACIÓN DOMINGO 22 DE MARZO (8PM)
-
         
+				####################################################################
+		        ############################ FINALISTAS ############################
 
+		        ACTUALIZACIÓN DOMINGO 22 DE MARZO (8PM)
+
+		        Los siguientes equipos serán los finalistas y presentarán el día de 
+		        mañana lunes 23 de marzo a las 4pm en orden alfabético.
+
+		        Recibirán instrucciones por correo electrónico. Si no han recibido 
+		        el correo electrónico por favor escribir a games@numo.global
+
+		        Coo_Vit_Bogota
+		        David_GAMBA_Erika_ROJAS
+		        jaime_bermeo
+		        juan_neira
+		        Kayleah Griffen - Mateo Carvajal
+		        TeamTak
+
+
+		        Hay 4 cupos adicionales para finalistas que no estén en la lista
+		        anterior. Estos 4 cupos serán aceptados en orden de llegada de
+		        pull-requests desde ahora hasta las 3:30pm del día de mañana
+		        lunes 23 de marzo. Todos estos finalistas adicionales tendrán
+		        una penalidad en la evaluación por entrega extemporánea.
+
+				####################################################################
 
 ```
 

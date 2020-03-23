@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        {% load static %}
+
+        <!--Import Google Icon Font-->
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
+
+        <!-- Compiled and minified CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+        />
+
+        <!--Import jQuery before materialize.js-->
+        <script
+            type="text/javascript"
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+        ></script>
+
+
+        <!-- Leaflet CSS (web mapping library) -->
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+            integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+            crossorigin=""
+        />
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <!--Datatable-->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css"
+        />
+        <script
+            type="text/javascript"
+            charset="utf8"
+            src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"
+        ></script>
+
+        <title>Steer Travel Info</title>
+    </head>
+    <body>
+        <!-- Navbar goes here -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper grey darken-4">
+                    <a href="#" data-target="slide-out" class="sidenav-trigger"
+                        ><i class="material-icons">menu</i></a
+                    >
+                    <img
+                        src=""
+                        style="height: 60px;  filter: invert(100%);"
+                    />
+                    <ul class="right hide-on-med-and-down">
+                        <!-- Dropdown Structure -->
+                        <ul id="dropdown1" class="dropdown-content">
+                            <li><a href="">Log out</a></li>
+                        </ul>
+                        <!-- Dropdown Trigger -->
+                        <li>
+                            <a
+                                class="dropdown-trigger"
+                                href="#!"
+                                data-target="dropdown1"
+                            >
+
+                                <i class="material-icons right"
+                                    >arrow_drop_down</i
+                                ></a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Page Layout here -->
+        <div class="row">
+            <div class="col s3">
+                <!-- Grey navigation panel -->
+                <ul id="slide-out" class="sidenav sidenav-fixed">
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-expandable">
+                            <li>
+                                <a
+                                    class="collapsible-header"
+                                    href=""
+                                    ><i class="material-icons">home</i>Home</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-expandable">
+                            <li>
+                                <a class="collapsible-header"
+                                    href=""
+                                    ><i class="material-icons">public</i
+                                    >Projects</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-expandable">
+                            <li>
+                                <a class="collapsible-header"
+                                href=""
+                                ><i class="material-icons">swap_calls</i
+                                    >Guidelines</a
+                                >                            
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="no-padding">
+                        <ul class="collapsible collapsible-expandable">
+                            <li>
+                                <a class="collapsible-header"
+                                href=""
+                                ><i class="material-icons">info</i
+                                    >About</a
+                                >                            
+                            </li>
+                        </ul>
+                    </li>  
+                    {% if user.is_superuser %}
+                    <li class="no-padding">
+                        <ul class="collapsible">
+                            <li>
+                                <div class="collapsible-header"
+                                    ><i class="material-icons">settings</i
+                                    >Administration</div
+                                >
+                                <div class="collapsible-body">
+                                    <ul>
+                                        <li>
+                                            <a href=""
+                                                >Reports</a
+                                            >
+                                        </li>
+                                        <li><a href="">Bills</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>       
+                    {% endif %}
+                </ul>
+            </div>
+
+            <div class="col s9" style="padding:2% 5%;">
+                <!-- Teal page content  -->
+                {% block content %}
+                <!--div class="container"-->
+                <!-- Page Content goes here -->
+
+                <!--/div-->
+                {% endblock %}
+            </div>
+        </div>
+    </body>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.collapsible').collapsible()
+            $('.sidenav').sidenav()
+            $('.dropdown-trigger').dropdown({
+                hover: true,
+                belowOrigin: false
+            })
+            $('select').formSelect()
+            $('.tooltipped').tooltip()
+        })
+
+        var stepper = document.querySelector('.stepper')
+        var stepperInstace = new MStepper(stepper, {
+            // options
+            firstActive: 0, // this is the default active step
+            stepTitleNavigation: false // Enable or disable navigation by clicking on step-titles
+        })
+    </script>
+</html>

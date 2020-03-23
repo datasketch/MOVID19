@@ -34,4 +34,4 @@ Escribimos la presentación en ingles ya que Kayleah no habla español. Esperamo
 ## Pasos metodología
 
 - En la carpeta de Codigo pueden encontrar el codigo para la aplicación de Whatsapp y para el servidor. Usamos Django y MongoDB para construir el servidor y Flask y Twilio para el chatbot.
-- Tambien corrimos algunos analisis sobre la base de datos de la Encuesta de Movilidad 
+- Tambien corrimos algunos analisis sobre la base de datos de la Encuesta de Movilidad

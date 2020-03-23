@@ -30,13 +30,12 @@ STATICFILES_DIRS = (
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'wj$^mo21p6u5fdh^+_(h9bfa$aq0oxgzqu+q&*x%yrl7z2_9^-'
+SECRET_KEY = '-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://08150282.ngrok.io',
-                 'c8ce091b.ngrok.io', 'f812a51d.ngrok.io']
+ALLOWED_HOSTS = ['-']
 
 
 # Application definition
@@ -97,9 +96,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'djongo',
         'NAME': 'movid',
-        'HOST': 'mongodb+srv://matcarf:Password1@movid-qjdw0.mongodb.net/test?retryWrites=true&w=majority',
+        'HOST': 'mongodb+srv://<insert>:<insert>@movid-qjdw0.mongodb.net/test?retryWrites=true&w=majority',
         'USER': 'matcarf',
-        'PASSWORD': 'Password1',
+        'PASSWORD': '<insert>',
     }
 }
 

@@ -7,7 +7,7 @@ from twilio.twiml.messaging_response import MessagingResponse
 
 app = Flask(__name__)
 
-URL = "https://f812a51d.ngrok.io/api"
+URL = "<insert URL>"
 
 
 INTRO_MSG = "*Bienvenido al sistema de Trazabilidad del COVID19*"

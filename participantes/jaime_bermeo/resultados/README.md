@@ -41,11 +41,23 @@ Adicionalmente, en países como Corea del Sur, China y Japón se realizan medici
 
 La única forma de eliminar de forma confiable las partículas del tamaño del virus del aire es haciendo circular todo el volumen de aire en una habitación o espacio cerrado varias veces por hora para aumentar la probabilidad de que partículas del tamaño aproximado de 3 micrómetros queden atrapadas en el filtro. 
 
-
 ## Resultados
 - Es necesario implementar una política de medición de temperatura en las estaciones de Transmilenio, puesto que esto alertará de un posible brote de contagio si muchas personas presentan síntomas de fiebre.
 - La filtración del aire mediante HEPA, en conjunto con una limpieza y desinfección constante de los buses del Transmilenio, contribuyen a disminuir la probabilidad de contagiar a los pasajeros durante el viaje en el vehículo
 - Las medidas de control deben ser tomadas de manera adecuada, puesto que si un paciente contagiado viaja libremente por el transporte público, puede convertirse en un vector de contagio masivo.
+- Se propone la construcción de un servicio web libre y de código abierto, podrá recibir los datos de mediciones que resulten sospechosas de contagio, permitiendo de forma automatizada enviar una notificación a la EPS o entidad de salud a la que pertenezca el paciente, permitiendo una rápida acción y una focalización en la atención a las personas que realmente lo requieren.
+
+El diseño de la estructura de datos para la recolección, y posterior consulta, es el siguiente:
+
+![alt text](
+https://raw.githubusercontent.com/Silverdoses/MOVID19/Silverdoses/participantes/jaime_bermeo/visualizacion/Model.png "Diseño de la base de datos")
+
+Cualquier persona podrá obtener estadísticas anonimizadas sobre el progreso de las medidas a implementar, permitiendo validar que en efecto, son productivas. La información confidencial se utilizará únicamente con fines de enviar la alerta a las entidades competentes, y realizará su respectiva anonimización una vez exista respuesta.
+
+- Rangos de edades de los pacientes
+- Zonas donde se focalizan los contagios
+- Estadísticas de alertas a los servicios de salud
+- Síntomas más comunes
 
 ## Confirmación de envío de resultados
 

@@ -1,0 +1,39 @@
+id;label;definicion;ctype;unidades
+departamento;Departamento;Departamento en el cual se localiza la sede prestadora del servicio de salud;Cat;NA
+municipio;Municipio;Municipio en el cual se localiza la sede prestadora del servicio de salud;Cat;NA
+cod_prestador;Código prestador;Código del prestador del servicio de salud;Cat;NA
+prestador;Prestador;Nombre del prestador de servicio en la sede;Cat;NA
+cod_habilitacion;Código habilitación;Código de habilitación de la sede principal asignado por la dirección departamental o distrital de salud en la inscripción del prestador. Se compone de 2 dígitos de departamento, 3 de municipio y 5 de un secuencial propio de DTS.;Cat;NA
+cod_sede;Código sede;Código de la sede prestadora del servicio de salud;Cat;NA
+nombre_sede;Nombre sede;Nombre de la sede prestadora del servicio de salud;Cat;NA
+gerente;Gerente;Nombre del gerente de la sede prestadora del servicio de salud;Cat;NA
+zona;Zona;Zona en la cual se localiza la sede (rural o urbana);Cat;NA
+direccion;Dirección;Dirección del la sede prestadora del servicio de salud;Cat;NA
+barrio;Barrio;Barrio en el cual se localiza la sede;Cat;NA
+centro_poblado;Centro poblado;Centro poblado en el cual se localiza la sede;Cat;NA
+telefono;Teléfono;Teléfono de la sede prestadora del servicio de salud;Cat;NA
+fax;Fax;Fax de la sede prestadora del servicio de salud;Cat;NA
+email;E-mail;Correo electrónico de la sede prestadora del servicio de salud;Cat;NA
+fecha_apertura;Fecha apertura;Fecha de apertura de la sede prestadora del servicio de salud;Dat;NA
+nit;NIT;NIT de la empresa prestadora del servicio de salud;Cat;NA
+tipo_persona;Tipo persona;Tipo de persona a cargo de la sede prestadora del servicio de salud;Cat;NA
+cod_naturaleza;Código naturaleza;Código de la naturaleza (público o privado) de la sede prestadora del servicio de salud;Cat;NA
+naturaleza;Naturaleza;Naturaleza (público o privado) de la sede prestadora del servicio de salud;Cat;NA
+tipo_institucion;Tipo institución;Tipo de institución prestadora del servicio de salud;Cat;NA
+ese;ESE;Empresa Social del Estado;Cat;NA
+nivel;Nivel;Nivel del establecimiento según la complejidad de las actividades, procedimiento e intervenciones que realicen;Cat;NA
+caracter;Carácter;Carácter de la sede prestadora del servicio de salud;Cat;NA
+sede_principal;Sede principal;La sede es la principal o no;Cat;NA
+habilitado;Habilitado;La sede se encuentra habilitada o no para prestar el servicio de salud en Colombia;Cat;NA
+horario_lunes;Horario lunes;Horario de atención a usuarios los días lunes;Cat;NA
+horario_martes;Horario martes;Horario de atención a usuarios los días martes;Cat;NA
+horario_miercoles;Horario miércoles;Horario de atención a usuarios los días miércoles;Cat;NA
+horario_jueves;Horario jueves;Horario de atención a usuarios los días jueves;Cat;NA
+horario_viernes;Horario viernes;Horario de atención a usuarios los días viernes;Cat;NA
+horario_sabado;Horario sábado;Horario de atención a usuarios los días sábado;Cat;NA
+horario_domingo;Horario domingo;Horario de atención a usuarios los días domingo;Cat;NA
+pdet;Municipio PDET;El municipio en el cual se localiza la sede se considera como parte del Programa de Desarrollo con Enfoque Territorial;Cat;NA
+pnsr;Municipio PNSR;El municipio en el cual se localiza la sede se considera parte del Programa Nacional de Saneamiento Rural;Cat;NA
+zomac;Municipio ZOMAC;El municipio en el cual se localiza la sede se considera una Zona Más Afectada por el Conflicto Armado;Cat;NA
+gcd_departamento;Código departamental;Código departamental en el cual se ubica el prestador del servicio de salud;Num;NA
+gcd_municipio;Código municipal;Código municipal en el cual se ubica el prestador del servicio de salud;Num;NA

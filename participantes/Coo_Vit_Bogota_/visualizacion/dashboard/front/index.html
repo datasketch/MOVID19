@@ -64,6 +64,7 @@
                 <div id="button_info" class="button">-</div>
             </div>
             <div id="info_box" class="container dark">
+                <a href="http://ec2-34-201-153-2.compute-1.amazonaws.com:8080/home">Ir a COVIT Bogotá</a>
                 <canvas id="canvas"></canvas>
             </div>
         </div>
@@ -123,72 +124,97 @@
             
             var tile_dark = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",{"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}).addTo(map)
             var tile_light = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",{"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false})
-            
-            $.getJSON("../data/trips.geojson",function(data){
-                var tripsStyle = {"color": "#ff7800", "weight": 1.5, "opacity": 0.25}
-                var tripsLayer = L.geoJson(data, {style: tripsStyle})
-                .bindPopup(function (layer) {return "Modo: "+layer.feature.properties.modo_transporte})
-                $.getJSON("../data/desired_trips.geojson",function(data){
-                    var tripsStyle2 = {"color": "#ff0078", "weight": 1.5, "opacity": 0.25}
-                    var tripsLayer2 = L.geoJson(data, {style: tripsStyle2})
-                    $.getJSON("../data/zat.geojson",function(data){
-                        var zatStyleO = function (feature) {
-                            return {
-                            "color": getColor(feature.properties.viajes_originados),
-                            "weight": 1.0,
-                            "fill-opacity": getOpacity(feature.properties.viajes_originados),
-                        }}
-                        var zatLayerO = L.geoJson(data, {style: zatStyleO})
-                        .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
-                        var zatStyleD = function (feature) {
-                            return {
-                            "color": getColor(feature.properties.viajes_recibidos),
-                            "weight": 1.0,
-                            "opacity": getOpacity(feature.properties.viajes_recibidos),
-                        }}
-                        var zatLayerD = L.geoJson(data, {style: zatStyleD})
-                        .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
-                        var zatStyleL = function (feature) {
-                            return {
-                            "color": getColor2(feature.properties.equipamientos),
-                            "weight": 1.0,
-                            "opacity": getOpacity(feature.properties.equipamientos),
-                        }}
-                        var zatLayerL = L.geoJson(data, {style: zatStyleL})
-                        .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
-                        $.getJSON("../data/locations.geojson",function(data){
-                            var pointsInZone = geoJson2heat(data, 4)
-                            var heatMapInZone = L.heatLayer(pointsInZone, {radius: 50, blur: 25})
-                            var locsInZone = L.geoJSON(data, {pointToLayer: function(feature, latlng) {return new L.CircleMarker(latlng, {radius: 1, color: '#984ea3', fillOpacity: 0.75});}})
-                            .bindPopup(function (layer) {return "Equipamiento: "+layer.feature.properties.nombre_sede})
-                            var baseLayers = {
-                                "Light basemap": tile_light,
-                                "Dark basemap": tile_dark
-                            };
-                            var info = {
-                                "Viajes (lines)":tripsLayer,
-                                "Viajes COVIT (lines)":tripsLayer2,
-                                "ZAT (Origenes)":zatLayerO,
-                                "ZAT (Destinos)":zatLayerD,
-                                "ZAT (Equipamientos)":zatLayerL,
-                                "Heatmap (Equipamientos)":heatMapInZone,
-                                "Points (Equipamientos)":locsInZone
-                            }
+            $.getJSON("../data/Ruta_COVIT_Bogota.geojson",function(data){
+                var routeStyle = {"color": "#3388ff", "weight": 2.0, "opacity": 0.75}
+                var routeLayer = L.geoJson(data, {style: routeStyle})
+                $.getJSON("../data/Paradas_COVIT_Bogota.geojson",function(data){
+                    var smallIcon = new L.Icon({
+                        iconUrl: 'images/bus.png',
+                        iconSize:    [15, 15],
+                        popupAnchor: [1, -34]
+                    });
+                    var stopsLayer = L.geoJson(data,{
+                                                        pointToLayer: 
+                                                        function(feature, latlng) {
+                                                            console.log(latlng, feature);
+                                                            return L.marker(latlng, {
+                                                            icon: smallIcon
+                                                            })},
+                                                        onEachFeature: 
+                                                        function (feature, layer) {
+                                                            console.log(feature);
+                                                            layer.bindPopup(feature.properties.Name);
+                                                        }});
+                    $.getJSON("../data/trips.geojson",function(data){
+                        var tripsStyle = {"color": "#ff7800", "weight": 1.5, "opacity": 0.25}
+                        var tripsLayer = L.geoJson(data, {style: tripsStyle})
+                        .bindPopup(function (layer) {return "Modo: "+layer.feature.properties.modo_transporte})
+                        $.getJSON("../data/desired_trips.geojson",function(data){
+                            var tripsStyle2 = {"color": "#ff0078", "weight": 1.5, "opacity": 0.25}
+                            var tripsLayer2 = L.geoJson(data, {style: tripsStyle2})
+                            $.getJSON("../data/zat.geojson",function(data){
+                                var zatStyleO = function (feature) {
+                                    return {
+                                    "color": getColor(feature.properties.viajes_originados),
+                                    "weight": 1.0,
+                                    "fill-opacity": getOpacity(feature.properties.viajes_originados),
+                                }}
+                                var zatLayerO = L.geoJson(data, {style: zatStyleO})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                var zatStyleD = function (feature) {
+                                    return {
+                                    "color": getColor(feature.properties.viajes_recibidos),
+                                    "weight": 1.0,
+                                    "opacity": getOpacity(feature.properties.viajes_recibidos),
+                                }}
+                                var zatLayerD = L.geoJson(data, {style: zatStyleD})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                var zatStyleL = function (feature) {
+                                    return {
+                                    "color": getColor2(feature.properties.equipamientos),
+                                    "weight": 1.0,
+                                    "opacity": getOpacity(feature.properties.equipamientos),
+                                }}
+                                var zatLayerL = L.geoJson(data, {style: zatStyleL})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                $.getJSON("../data/locations.geojson",function(data){
+                                    var pointsInZone = geoJson2heat(data, 4)
+                                    var heatMapInZone = L.heatLayer(pointsInZone, {radius: 50, blur: 25})
+                                    var locsInZone = L.geoJSON(data, {pointToLayer: function(feature, latlng) {return new L.CircleMarker(latlng, {radius: 1, color: '#984ea3', fillOpacity: 0.75});}})
+                                    .bindPopup(function (layer) {return "Equipamiento: "+layer.feature.properties.nombre_sede})
+                                    var baseLayers = {
+                                        "Light basemap": tile_light,
+                                        "Dark basemap": tile_dark
+                                    };
+                                    var info = {
+                                        "Viajes (lines)":tripsLayer,
+                                        "Viajes COVIT (lines)":tripsLayer2,
+                                        "ZAT (Origenes)":zatLayerO,
+                                        "ZAT (Destinos)":zatLayerD,
+                                        "ZAT (Equipamientos)":zatLayerL,
+                                        "Heatmap (Equipamientos)":heatMapInZone,
+                                        "Points (Equipamientos)":locsInZone,
+                                        "Trazado ruta COVIT":routeLayer,
+                                        "Paradas ruta COVIT":stopsLayer
+                                    }
 
-                            zatLayerO.addTo(map)
-                            zatLayerD.addTo(map)
-                            zatLayerL.addTo(map)
-                            heatMapInZone.addTo(map)
-                            locsInZone.addTo(map)
-                            tripsLayer.addTo(map)
-                            tripsLayer2.addTo(map)
+                                    zatLayerO.addTo(map)
+                                    zatLayerD.addTo(map)
+                                    zatLayerL.addTo(map)
+                                    heatMapInZone.addTo(map)
+                                    locsInZone.addTo(map)
+                                    tripsLayer.addTo(map)
+                                    tripsLayer2.addTo(map)
+                                    routeLayer.addTo(map)
+                                    stopsLayer.addTo(map)
 
-                            L.control.layers(baseLayers, info).addTo(map); 
+                                    L.control.layers(baseLayers, info).addTo(map); 
+                                })
+                            })
                         })
                     })
                 })
-            });
-            
+            })
             $.getJSON("../data/time.json",function(dat){
                 var labs = dat['index'];
                 var datos = []

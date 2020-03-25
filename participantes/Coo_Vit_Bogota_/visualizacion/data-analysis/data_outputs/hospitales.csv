@@ -1,0 +1,66 @@
+,departamento,municipio,cod_prestador,prestador,cod_habilitacion,cod_sede,nombre_sede,gerente,zona,ZAT,latitud,longitud
+0,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Reina Sofía,1100100032,04140038,Clínica Reina Sofía,,Urbana,88,4.706850140000086,-74.0518848239999
+1,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Universitaria Colombia,1100100032,04140040,Clínica Universitaria Colombia,,Urbana,997,4.648028604000046,-74.10640329099994
+2,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Country,1100100032,04140043,Clínica Country,,Urbana,163,4.668942267000091,-74.05689999399993
+3,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Militar Central,1100100032,04140045,Hospital Militar Central,,Urbana,272,4.634575707000067,-74.06185347299993
+4,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Santa Fe de Bogotá,1100100032,04140060,Fundación Santa Fe de Bogotá,,Urbana,153,4.695578112000078,-74.03319863099995
+5,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Salud de Los Andes,1100100032,04140061,Fundación Salud de Los Andes,,Urbana,294,4.647656991000076,-74.09489223499992
+6,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Universitaria El Bosque,1100100032,04140062,Clínica Universitaria El Bosque,,Urbana,86,4.71147062700004,-74.03096715899994
+7,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Santo Tomas S.A.,1100100032,04140063,Clínica Santo Tomas S.A.,,Urbana,272,4.637302913000042,-74.06099295999991
+8,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Abood Shaio,1100100032,04140064,Fundación Abood Shaio,,Urbana,135,4.698053278000089,-74.07287013199993
+9,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica de Marly S.A,1100100032,04140065,Clínica de Marly S.A,,Urbana,276,4.636612520000085,-74.06506209499992
+10,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Palermo,1100100032,04140066,Clínica Palermo,,Urbana,279,4.636161908000076,-74.07388488099991
+11,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Infantil Colsubsidio,1100100032,04140067,Clínica Infantil Colsubsidio,,Urbana,255,4.652105816000073,-74.06108624099994
+12,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Hospital San Carlos,1100100032,04140068,Fundación Hospital San Carlos,,Urbana,610,4.570951997000066,-74.10768442299991
+13,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Montserrat,1100100032,04140069,Clínica Montserrat,,Urbana,87,4.716733741000041,-74.04663853499994
+14,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Nueva,1100100032,04140070,Clínica Nueva,,Urbana,279,4.63424853500004,-74.07096127199992
+15,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica de Nuestra Señora de la Paz,1100100032,04140071,Clínica de Nuestra Señora de la Paz,,Urbana,386,4.638158714000042,-74.12595204099995
+16,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Arthur Stanley Gillow,1100100032,04140072,Fundación Arthur Stanley Gillow,,Urbana,150,4.683854432000089,-74.0446082199999
+17,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario Clínica San Rafael,1100100032,04140073,Hospital Universitario Clínica San Rafael,,Urbana,499,4.57663844700005,-74.09133122199995
+18,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Federman,1100100032,04140074,Clínica Federman,,Urbana,290,4.649816891000057,-74.08142846699991
+19,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Fundadores,1100100032,04140075,Clínica Fundadores,,Urbana,335,4.631249572000058,-74.08546018999994
+20,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Magdalena,1100100032,04140076,Clínica Magdalena,,Urbana,341,4.627045506000059,-74.0692003499999
+21,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica del Occidente S.A,1100100032,04140077,Clínica del Occidente S.A,,Urbana,421,4.629362268000079,-74.13567718299993
+22,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica La Inmaculada,1100100032,04140079,Clínica La Inmaculada,,Urbana,252,4.651487947000078,-74.05693164099995
+23,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Barraquer,1100100032,04140080,Clínica Barraquer,,Urbana,849,4.685524999000052,-74.0516591519999
+24,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Infantil Universitario San José,1100100032,04140081,Hospital Infantil Universitario San José,,Urbana,218,4.665128563000053,-74.07897204199992
+25,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Juan N Corpas,1100100032,04140082,Clínica Juan N Corpas,,Urbana,1065,4.76120626800008,-74.09317530699991
+26,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Partenón,1100100032,04140084,Clínica Partenón,,Urbana,182,4.69253414800005,-74.09817457899993
+27,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario Mayor MEDERI,1100100032,04140095,Hospital Universitario Mayor MEDERI,,Urbana,360,4.623339408000049,-74.0826925529999
+28,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Colsubsidio El Lago,1100100032,04140096,Clínica Colsubsidio El Lago,,Urbana,247,4.661172815000043,-74.05914213499995
+29,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Colsubsidio Orquídeas (Clínica Materno Infantil Colsubsidio),1100100032,04140097,Clínica Colsubsidio Orquídeas (Clínica Materno Infantil Colsubsidio),,Urbana,53,4.742009143000075,-74.03791609299992
+30,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica de la Mujer,1100100032,04140098,Clínica de la Mujer,,Urbana,164,4.677704007000045,-74.05724760999993
+31,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica del Seno,1100100032,04140099,Clínica del Seno,,Urbana,848,4.653701500000068,-74.0607904979999
+32,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Loyola,1100100032,04140100,Clínica Loyola,,Urbana,163,4.670772901000078,-74.05808617899993
+33,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica La Carolina,1100100032,04140101,Clínica La Carolina,,Urbana,87,4.704437293000069,-74.04108023099991
+34,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario San Ignacio,1100100032,04140102,Hospital Universitario San Ignacio,,Urbana,271,4.628347143000042,-74.06411675099991
+35,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario La Samaritana,1100100032,04140103,Hospital Universitario La Samaritana,,Urbana,463,4.587251742000092,-74.08371867799991
+36,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario Barrios Unidos Mederi,1100100032,04140104,Hospital Universitario Barrios Unidos Mederi,,Urbana,218,4.663707847000069,-74.08010953699994
+37,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundación Hospital de La Misericordia,1100100032,04140105,Fundación Hospital de La Misericordia,,Urbana,446,4.593619748000037,-74.08863309999992
+38,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Colsubsidio Roma,1100100032,04140106,Clínica Colsubsidio Roma,,Urbana,533,4.615094821000071,-74.17268016399993
+39,"Bogota, D.C.","Bogota, D.C.",1100100032,Centro De Atención En Salud Cafam Clínica,1100100032,04140217,Centro De Atención En Salud Cafam Clínica,,Urbana,280,4.638939690000086,-74.0681196699999
+40,"Bogota, D.C.","Bogota, D.C.",1100100032,Clínica Cardiointensiva Ltda,1100100032,04140225,Clínica Cardiointensiva Ltda,,Urbana,434,4.600082730000054,-74.09560258999994
+41,"Bogota, D.C.","Bogota, D.C.",1100100032,Fundacion Neumologica Colombiana,1100100032,04140266,Fundacion Neumologica Colombiana,,Urbana,54,4.74078638900005,-74.03441029099992
+42,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Central Policia Nacional,1100100032,04140267,Hospital Central Policia Nacional,,Urbana,294,4.647409080000045,-74.09768797999993
+43,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Universitario Nacional De Colombia,1100100032,04140268,Hospital Universitario Nacional De Colombia,,Urbana,294,4.649048060000041,-74.09552838999991
+44,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Bosa E.S.E. - Institución de II Nivel,1100100032,04140269,Hospital Bosa E.S.E. - Institución de II Nivel,,Urbana,567,4.606778187000089,-74.18568687499993
+45,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Chapinero E.S.E. Institución de I Nivel,1100100032,04140270,Hospital Chapinero E.S.E. Institución de I Nivel,,Urbana,239,4.653709706000086,-74.06546836199993
+46,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital del Sur E.S.E. - Institución de I Nivel,1100100032,04140271,Hospital del Sur E.S.E. - Institución de I Nivel,,Urbana,522,4.62322331200005,-74.14861391499994
+47,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital El Tunal E.S.E. - Institución de III Nivel,1100100032,04140272,Hospital El Tunal E.S.E. - Institución de III Nivel,,Urbana,633,4.571451635000074,-74.12823188599992
+48,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital de Suba E.S.E. - Institución de II Nivel,1100100032,04140273,Hospital de Suba E.S.E. - Institución de II Nivel,,Urbana,41,4.753426521000051,-74.0917563989999
+49,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital de Usaquén E.S.E. - Institución de I Nivel,1100100032,04140274,Hospital de Usaquén E.S.E. - Institución de I Nivel,,Urbana,155,4.696368570000061,-74.03056749199993
+50,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Santa Clara E.S.E. - Institución de III Nivel,1100100032,04140275,Hospital Santa Clara E.S.E. - Institución de III Nivel,,Urbana,447,4.591122790000043,-74.09197150099993
+51,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Simón Bolívar E.S.E. - Institución de III Nivel,1100100032,04140276,Hospital Simón Bolívar E.S.E. - Institución de III Nivel,,Urbana,55,4.741478662000077,-74.02262996499991
+52,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Nazareth E.S.E. - Institución de I Nivel,1100100032,04140277,Hospital Nazareth E.S.E. - Institución de I Nivel,,Urbana,301,4.669149985000047,-74.1122410779999
+53,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Occidente de Kennedy E.S.E. - Institución de III Nivel,1100100032,04140278,Hospital Occidente de Kennedy E.S.E. - Institución de III Nivel,,Urbana,522,4.620479817000046,-74.14815454299992
+54,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Usme E.S.E. - Institución de I Nivel,1100100032,04140279,Hospital Usme E.S.E. - Institución de I Nivel,,Urbana,1001,4.473230879000084,-74.12182850399995
+55,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Engativá E.S.E. Institución de II Nivel,1100100032,04140280,Hospital Engativá E.S.E. Institución de II Nivel,,Urbana,120,4.711421405000067,-74.10976255899993
+56,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Fontibón E.S.E. Institución de II Nivel,1100100032,04140281,Hospital Fontibón E.S.E. Institución de II Nivel,,Urbana,313,4.678249644000061,-74.14378741699994
+57,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital La Víctoria,1100100032,04140282,Hospital La Víctoria,,Urbana,641,4.552276371000062,-74.09435741999994
+58,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Meissen II Nivel E.S.E.,1100100032,04140283,Hospital Meissen II Nivel E.S.E.,,Urbana,962,4.559658870000078,-74.13874450999992
+59,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Rafael Uribe Uribe E.S.E. - Institución de I Nivel,1100100032,04140284,Hospital Rafael Uribe Uribe E.S.E. - Institución de I Nivel,,Urbana,590,4.576006831000086,-74.10226774499995
+60,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital San Blas E.S.E. - Institución de II Nivel,1100100032,04140285,Hospital San Blas E.S.E. - Institución de II Nivel,,Urbana,600,4.570079443000054,-74.08364775599995
+61,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital San Cristóbal E.S.E. - Institución de I Nivel,1100100032,04140286,Hospital San Cristóbal E.S.E. - Institución de I Nivel,,Urbana,499,4.575143589000049,-74.09360697599993
+62,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Vista Hermosa E.S.E. Institución de I Nivel,1100100032,04140287,Hospital Vista Hermosa E.S.E. Institución de I Nivel,,Urbana,711,4.552677168000059,-74.14464842899991
+63,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Tunjuelito E.S.E. - Institución de II Nivel,1100100032,04140288,Hospital Tunjuelito E.S.E. - Institución de II Nivel,,Urbana,678,4.559092804000045,-74.12597812799993
+64,"Bogota, D.C.","Bogota, D.C.",1100100032,Hospital Pablo VI Bosa E.S.E. - Institución de I Nivel,1100100032,04140289,Hospital Pablo VI Bosa E.S.E. - Institución de I Nivel,,Urbana,569,4.598941488000094,-74.19139104899995

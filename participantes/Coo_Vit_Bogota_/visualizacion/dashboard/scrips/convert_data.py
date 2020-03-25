@@ -108,6 +108,9 @@ for record in cur:
     rows.append(record)
 
 cur.close()
+
+
+
 conn.close()
 
 rows_df = pd.DataFrame(rows, columns =['ID', 'Gender', 'Age', 'Preconditions', 'Contac_infected', 'Ocupation', 'Destination_activities', 'home_address', 'destination_address']) 
@@ -120,3 +123,10 @@ desired_trips.to_file("../data/desired_trips.geojson", driver='GeoJSON')
 locations["geometry"] = locations.apply(lambda row: Point(row.longitud, row.latitud), axis=1)
 locations = gpd.GeoDataFrame(locations)
 locations.to_file("../data/locations.geojson", driver='GeoJSON')
+
+
+
+
+
+
+

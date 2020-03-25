@@ -12,4 +12,5 @@ urlpatterns = [
     path('stops_ahead/<str:route>/<str:initial_stop>/<str:direction>/', Stops_ahead, name='Stops_ahead'),
     path('services/<str:route>/<str:initial_stop>/<str:direction>/', Services, name='Services'),
     path('save_person_route/', Save_person_route, name='Save_person_route'),
+    path('save_person_no_route/', Save_person_no_route, name='Save_person_no_route'),
 ]

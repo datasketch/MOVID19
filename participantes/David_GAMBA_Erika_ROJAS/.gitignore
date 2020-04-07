@@ -1,2 +1,3 @@
 data/movilidad/*
 !data/data.md
+.ipynb_checkpoints/

@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>COVIT Bogotá</title>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+    <link rel="shortcut icon" type="image/png" href="images/virus.png"/>
+    <style>
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body, #wrapper, #map{
+            height: 100%;
+            width: 100%;
+        }
+
+        #wrapper { position: relative; }
+        #info { position: absolute; bottom: 40px; right: 20px; z-index: 9999; height: 50%; width: 600px;}
+        #info_box{ border: solid 1px #1D70B6; height: 300px; width: 600px;}
+        
+        #title_bar{
+            border: solid 1px #1D70B6;
+            background: #093E63;
+            height: 25px;
+            width: 100%;
+            text-align: center;
+            vertical-align: middle;
+            color: #ffffff;
+        }
+        #title_bar label{
+            vertical-align: middle;
+            text-align: center;
+        }
+        .button{
+            border-left: solid 1px #1D70B6;
+            width: 25px;
+            height: 25px;
+            float:right;
+            cursor:pointer;
+            text-align: center;
+            vertical-align: middle;
+            color: #1D70B6;
+            font-weight: bold;
+        }
+
+        .light{color: #000000;}
+        .dark{color: #ffffff;}
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="info">
+            <div id="title_bar">
+                <label>Perfil de viajes</label>
+                <div id="button_info" class="button">-</div>
+            </div>
+            <div id="info_box" class="container dark">
+                <a href="http://ec2-34-201-153-2.compute-1.amazonaws.com:8080/home">Ir a COVIT Bogotá</a>
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+        <div id="map"></div>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js" integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew==" crossorigin=""></script>
+        <script src="https://leaflet.github.io/Leaflet.heat/dist/leaflet-heat.js"></script>
+        <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.js"></script>
+        <script>
+            $("#info").draggable();
+            $("#button_info").click(function(){
+                if($(this).html() == "-"){
+                    $(this).html("+");
+                }
+                else{
+                    $(this).html("-");
+                }
+                $("#info_box").slideToggle();
+            });
+        </script>
+        <script>
+            geoJson2heat = function(geojson, intensity) {
+                return geojson.features.map(function(feature) {
+                return [parseFloat(feature.geometry.coordinates[1]), 
+                        parseFloat(feature.geometry.coordinates[0]), intensity];
+                });
+            }
+            
+            function getColor(x) {
+                            return  x == 0 ? '':
+                                    x < 10 ? '#00cd13':
+                                    x < 100 ? '#9dcd00':
+                                    x < 1000 ? '#cdcc00':
+                                    x < 2000 ? '#cd8600':
+                                    x < 3000 ? '#cd0000':
+                                    '#880000';
+                            };
+                            function getColor2(x) {
+                            return  x == 0 ? '':
+                                    x < 1 ? '#00cd13':
+                                    x < 2 ? '#9dcd00':
+                                    x < 3 ? '#cdcc00':
+                                    x < 4 ? '#cd8600':
+                                    x < 5 ? '#cd0000':
+                                    '#880000';
+                            };
+                            function getOpacity(x) {
+                            return  x == 0 ? 0:0.5;
+                            };
+                
+            var map = L.map('map').setView([4.68,-74.06], 12);
+            var selected;
+            mapLink = '<a href="http://openstreetmap.org">OpenStreetMap</a>'
+            
+            var tile_dark = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",{"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}).addTo(map)
+            var tile_light = L.tileLayer("https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",{"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false})
+            $.getJSON("../data/Ruta_COVIT_Bogota.geojson",function(data){
+                var routeStyle = {"color": "#3388ff", "weight": 2.0, "opacity": 0.75}
+                var routeLayer = L.geoJson(data, {style: routeStyle})
+                $.getJSON("../data/Paradas_COVIT_Bogota.geojson",function(data){
+                    var smallIcon = new L.Icon({
+                        iconUrl: 'images/bus.png',
+                        iconSize:    [15, 15],
+                        popupAnchor: [1, -34]
+                    });
+                    var stopsLayer = L.geoJson(data,{
+                                                        pointToLayer: 
+                                                        function(feature, latlng) {
+                                                            console.log(latlng, feature);
+                                                            return L.marker(latlng, {
+                                                            icon: smallIcon
+                                                            })},
+                                                        onEachFeature: 
+                                                        function (feature, layer) {
+                                                            console.log(feature);
+                                                            layer.bindPopup(feature.properties.Name);
+                                                        }});
+                    $.getJSON("../data/trips.geojson",function(data){
+                        var tripsStyle = {"color": "#ff7800", "weight": 1.5, "opacity": 0.25}
+                        var tripsLayer = L.geoJson(data, {style: tripsStyle})
+                        .bindPopup(function (layer) {return "Modo: "+layer.feature.properties.modo_transporte})
+                        $.getJSON("../data/desired_trips.geojson",function(data){
+                            var tripsStyle2 = {"color": "#ff0078", "weight": 1.5, "opacity": 0.25}
+                            var tripsLayer2 = L.geoJson(data, {style: tripsStyle2})
+                            $.getJSON("../data/zat.geojson",function(data){
+                                var zatStyleO = function (feature) {
+                                    return {
+                                    "color": getColor(feature.properties.viajes_originados),
+                                    "weight": 1.0,
+                                    "fill-opacity": getOpacity(feature.properties.viajes_originados),
+                                }}
+                                var zatLayerO = L.geoJson(data, {style: zatStyleO})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                var zatStyleD = function (feature) {
+                                    return {
+                                    "color": getColor(feature.properties.viajes_recibidos),
+                                    "weight": 1.0,
+                                    "opacity": getOpacity(feature.properties.viajes_recibidos),
+                                }}
+                                var zatLayerD = L.geoJson(data, {style: zatStyleD})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                var zatStyleL = function (feature) {
+                                    return {
+                                    "color": getColor2(feature.properties.equipamientos),
+                                    "weight": 1.0,
+                                    "opacity": getOpacity(feature.properties.equipamientos),
+                                }}
+                                var zatLayerL = L.geoJson(data, {style: zatStyleL})
+                                .bindPopup(function (layer) {return "Viajes Originados: "+layer.feature.properties.viajes_originados+"<br>Viajes recibidos: "+layer.feature.properties.viajes_recibidos+"<br>Cantidad equipamientos: "+layer.feature.properties.equipamientos})
+                                $.getJSON("../data/locations.geojson",function(data){
+                                    var pointsInZone = geoJson2heat(data, 4)
+                                    var heatMapInZone = L.heatLayer(pointsInZone, {radius: 50, blur: 25})
+                                    var locsInZone = L.geoJSON(data, {pointToLayer: function(feature, latlng) {return new L.CircleMarker(latlng, {radius: 1, color: '#984ea3', fillOpacity: 0.75});}})
+                                    .bindPopup(function (layer) {return "Equipamiento: "+layer.feature.properties.nombre_sede})
+                                    var baseLayers = {
+                                        "Light basemap": tile_light,
+                                        "Dark basemap": tile_dark
+                                    };
+                                    var info = {
+                                        "Viajes (lines)":tripsLayer,
+                                        "Viajes COVIT (lines)":tripsLayer2,
+                                        "ZAT (Origenes)":zatLayerO,
+                                        "ZAT (Destinos)":zatLayerD,
+                                        "ZAT (Equipamientos)":zatLayerL,
+                                        "Heatmap (Equipamientos)":heatMapInZone,
+                                        "Points (Equipamientos)":locsInZone,
+                                        "Trazado ruta COVIT":routeLayer,
+                                        "Paradas ruta COVIT":stopsLayer
+                                    }
+
+                                    zatLayerO.addTo(map)
+                                    zatLayerD.addTo(map)
+                                    zatLayerL.addTo(map)
+                                    heatMapInZone.addTo(map)
+                                    locsInZone.addTo(map)
+                                    tripsLayer.addTo(map)
+                                    tripsLayer2.addTo(map)
+                                    routeLayer.addTo(map)
+                                    stopsLayer.addTo(map)
+
+                                    L.control.layers(baseLayers, info).addTo(map); 
+                                })
+                            })
+                        })
+                    })
+                })
+            })
+            $.getJSON("../data/time.json",function(dat){
+                var labs = dat['index'];
+                var datos = []
+                dat['data'].forEach(element => {
+                    datos.push(element[0])
+                });
+                var config = {
+                    type: 'line',
+                    data: {
+                        labels: labs,
+                        datasets: [{
+                            label: 'Inicio de viajes',
+                            backgroundColor: '#ff7800',
+                            borderColor: '#ff7800',
+                            data: datos,
+                            fill: false,
+                        }]
+                    },
+                    options: {
+                        title: {
+                            display: true,
+                            text: 'Viajes con destino trabajo'
+                        },
+                        tooltips: {
+                            mode: 'index',
+                            intersect: false,
+                        },
+                        hover: {
+                            mode: 'nearest',
+                            intersect: true
+                        },
+                        scales: {
+                            xAxes: [{
+                                display: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Hora'
+                                }
+                            }],
+                            yAxes: [{
+                                display: true,
+                                scaleLabel: {
+                                    display: true,
+                                    labelString: 'Viajes'
+                                }
+                            }]
+                        }
+                    }
+                };
+                var ctx = document.getElementById('canvas').getContext('2d');
+                window.myLine = new Chart(ctx, config);
+            })
+
+            map.on('baselayerchange', function(e) {
+                if(e.name == "Light basemap"){
+                    $("#info_box").removeClass("dark")
+                    $("#info_box").addClass("light")
+                }else{
+                    $("#info_box").removeClass("light")
+                    $("#info_box").addClass("dark")
+                }
+            });
+            
+        </script>
+    </div>
+</body>
+</html>
